@@ -21,7 +21,7 @@
 | `scaling_data.py` | 데이터 정규화(Scaling) 및 모델 출력값의 역변환(Inverse Scaling) 처리 |
 | `Train_LTSFNLinear.ipynb` | 시계열 예측 모델(Linear, DLinear, NLinear)의 학습 및 성능 평가용 노트북 |
 
-#### 2-1. 예측 파이프라인 (Daily)
+#### **2-1. 예측 파이프라인 (Daily)**
 매시간 정각에 실시간 데이터를 바탕으로 예측을 수행합니다.
 * **스케줄러 가동**: `main.py` 실행 시 정해진 주기마다 예측 작업이 시작됩니다.
 * **사용자 및 데이터 수집**: `request_moduel.py`를 통해 현재 활성화된 웨어러블 사용자와 최근 생체 데이터를 수집합니다.
